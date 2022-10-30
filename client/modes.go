@@ -1,0 +1,62 @@
+package client
+
+// Modes copied from WS2812FX: https://github.com/kitesurfer1404/WS2812FX/blob/2b62056f6c6f90c94b9c2562fb2a32fa54abc382/src/modes_arduino.h#L40
+const (
+	ModeStatic               uint16 = 0
+	ModeBlink                uint16 = 1
+	ModeBreath               uint16 = 2
+	ModeColorWipe            uint16 = 3
+	ModeColorWipeInv         uint16 = 4
+	ModeColorWipeRev         uint16 = 5
+	ModeColorWipeRevInv      uint16 = 6
+	ModeColorWipeRandom      uint16 = 7
+	ModeRandomColor          uint16 = 8
+	ModeSingleDynamic        uint16 = 9
+	ModeMultiDynamic         uint16 = 10
+	ModeRainbow              uint16 = 11
+	ModeRainbowCycle         uint16 = 12
+	ModeScan                 uint16 = 13
+	ModeDualScan             uint16 = 14
+	ModeFade                 uint16 = 15
+	ModeTheaterChase         uint16 = 16
+	ModeTheaterChaseRainbow  uint16 = 17
+	ModeRunningLights        uint16 = 18
+	ModeTwinkle              uint16 = 19
+	ModeTwinkleRandom        uint16 = 20
+	ModeTwinkleFade          uint16 = 21
+	ModeTwinkleFadeRandom    uint16 = 22
+	ModeSparkle              uint16 = 23
+	ModeFlashSparkle         uint16 = 24
+	ModeHyperSparkle         uint16 = 25
+	ModeStrobe               uint16 = 26
+	ModeStrobeRainbow        uint16 = 27
+	ModeMultiStrobe          uint16 = 28
+	ModeBlinkRainbow         uint16 = 29
+	ModeChaseWhite           uint16 = 30
+	ModeChaseColor           uint16 = 31
+	ModeChaseRandom          uint16 = 32
+	ModeChaseRainbow         uint16 = 33
+	ModeChaseFlash           uint16 = 34
+	ModeChaseFlashRandom     uint16 = 35
+	ModeChaseRainbowWhite    uint16 = 36
+	ModeChaseBlackout        uint16 = 37
+	ModeChaseBlackoutRainbow uint16 = 38
+	ModeColorSweepRandom     uint16 = 39
+	ModeRunningColor         uint16 = 40
+	ModeRunningRedBlue       uint16 = 41
+	ModeRunningRandom        uint16 = 42
+	ModeLarsonScanner        uint16 = 43
+	ModeComet                uint16 = 44
+	ModeFireworks            uint16 = 45
+	ModeFireworksRandom      uint16 = 46
+	ModeMerryChristmas       uint16 = 47
+	ModeFireFlicker          uint16 = 48
+	ModeFireFlickerSoft      uint16 = 49
+	ModeFireFlickerIntense   uint16 = 50
+	ModeCircusCombustus      uint16 = 51
+	ModeHalloween            uint16 = 52
+	ModeBicolorChase         uint16 = 53
+	ModeTricolorChase        uint16 = 54
+	ModeTwinklefox           uint16 = 55
+	ModeRain                 uint16 = 56
+)
